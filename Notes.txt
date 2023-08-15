@@ -1,0 +1,65 @@
+
+[<Section 4> Props and State Compents]
+
+1- Props Components {
+    {
+       => In React, components are the building blocks that encapsulate the user interface and
+       functionality. Components can communicate with each other by passing data between them.
+       One common way to pass data from a parent component to a child component is through props.
+       
+       => Props (short for "properties") are a mechanism for passing data from a parent component
+        to its child components. They allow you to customize and configure child components based
+        on the data provided by their parent. Props are read-only and cannot be modified by the
+        child component.
+    }
+}
+    
+2- State & useState {
+    {
+        => In React, useState is a hook that allows functional components to manage state.
+        State refers to data that can change over time and can affect a component's behavior
+        and rendering. The useState hook provides a way to declare state variables and their 
+        corresponding setter functions within functional components, enabling them to maintain 
+        and update their own local state.
+    }
+}
+
+3- Event Handling {
+    {
+        => Event handling in React involves managing and responding to user interactions, such as
+        clicks, input changes, and other events triggered by the user. React provides a
+        straightforward way to handle events within components using JSX syntax.
+
+        1- Event Binding: In React, you can attach event handlers to elements just like you would
+        in HTML, but with JSX, you use camelCase for event names instead of lowercase.
+        For example, onClick instead of onclick.
+
+        2- Event Handlers: are functions that are executed when the specified event occurs. 
+
+        3- State Management: Often, events trigger changes in the component's state.
+        To manage state changes caused by events, you can use the useState hook or a state
+        management library like Redux.
+
+        4- Event Object: The event handler function receives an event object as its parameter.
+        This object contains information about the event, such as the type of event and the target element.
+    }
+}
+
+4- Two-way binding {
+    {
+        => Is a concept in which changes made to a user interface element (like an input field)
+        are immediately reflected in the underlying data model, and conversely, changes to the data 
+        model are immediately reflected in the user interface element. This allows for seamless
+        synchronization between the UI and the data, ensuring that both stay in sync without
+        requiring explicit updates.
+    }
+}
+
+5- Passing data from child to parent (lifting state up){
+    {
+        => In React, data typically flows in a unidirectional manner from parent components
+        to child components. However, there are cases when you need to pass data from a child
+        component back up to its parent component. To achieve this, you can use callback functions
+        passed as props from the parent to the child.
+    }
+}
