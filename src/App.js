@@ -4,7 +4,7 @@ import Employess from "./components/Employees/employess";
 
 function App() {
   return (
-    <div> <Employess /> </div>
+    <div> <Employess basename="/react"/> </div>
   );
 }
 
